@@ -1,0 +1,89 @@
+body{
+background-color: #F1EDE4;
+margin: 0;
+}
+
+.header {
+  padding: 100px;
+  background: #FFFDD0;
+  color: black;
+  font-size: 30px;
+  max-height: 50%;
+}
+.header h1 {
+text-align: center;
+}
+.menu {
+  padding: 40px;
+  background: #048EC0;
+  font-size: 28px;
+  font-family: sans-serif;
+}
+.menu a i{
+margin-right: 10px;
+font-size: 40px;
+transition: color .4s ease;
+}
+.menu a:hover{
+color: blue;
+}
+
+
+.content{
+margin-left: auto;
+margin-right: auto;
+text-align: right;
+}
+
+a{
+text-decoration: none;
+margin-right: 2rem;
+color: black;
+}
+img{
+height: 550px;
+width: 90%;
+margin: 0 0 0 5%;
+padding: 0;
+}
+
+table, th, td{
+  border: 2px solid;
+  border-width: 5px;
+}
+table{
+  width: 75%;
+  height: 100px;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 50px;
+  padding: 2px;
+}
+
+.title{
+    background-color: #f30c1b
+}
+
+.container{
+  border: 0;
+  width: 75%;
+  height: 100px;
+  text-align:  left;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 25px;
+}
+.ingredients{
+  width: 35%;
+  height: 100px;
+  text-align: center;
+}
+
+.methods{
+padding: 10px;
+}
